@@ -14,7 +14,7 @@ dependencies:
 
   cupertino_icons: ^1.0.2
   gestao_perdas_package:
-    path: /Users/raphael.silva/Projetos/DIA/poc-flutter-add-to-app/gestao_perdas_package
+    path: ../gestao_perdas_package
 
 dev_dependencies:
   flutter_test:

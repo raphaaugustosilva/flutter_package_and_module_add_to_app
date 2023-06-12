@@ -89,8 +89,8 @@ packages:
   gestao_perdas_package:
     dependency: "direct main"
     description:
-      path: "/Users/raphael.silva/Projetos/DIA/poc-flutter-add-to-app/gestao_perdas_package"
-      relative: false
+      path: "../gestao_perdas_package"
+      relative: true
     source: path
     version: "0.0.1"
   http_parser:

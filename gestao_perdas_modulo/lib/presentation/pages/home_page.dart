@@ -59,7 +59,7 @@ class _HomePageState extends State<HomePage> {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
-              if ((paramFromNative01 ?? "").isNotEmpty || (paramFromNative02 ?? "").isNotEmpty) Text(t.parametersComeFromNative, style: TextStyle(fontWeight: FontWeight.bold)),
+              if ((paramFromNative01 ?? "").isNotEmpty || (paramFromNative02 ?? "").isNotEmpty) Text(t.parametersComeFromNative, style: const TextStyle(fontWeight: FontWeight.bold)),
               if ((paramFromNative01 ?? "").isNotEmpty) Text("    ${t.parameter} ${t.native} 01: ${(paramFromNative01 ?? "")}"),
               if ((paramFromNative02 ?? "").isNotEmpty) Text("    ${t.parameter} ${t.native} 02: ${(paramFromNative02 ?? "")}"),
               ElevatedButton(
